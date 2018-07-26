@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Simple AI Demo with Web Speech API</title>
+    <link rel="stylesheet" href="../public/css/style.css">
+</head>
+
+<body>
+<section>
+    <h1>chat_bot_v0.1.0</h1>
+
+    <button>
+        <img src="../public/img/mic.svg" class="mic" alt="Mic">
+    </button>
+
+    <div class="texting">
+        <p>You said: <em class="output-you">...</em></p>
+        <p>Bot replied: <em class="output-bot">...</em></p>
+    </div>
+</section>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
