@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Simple AI Demo with Web Speech API</title>
-    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -11,12 +11,12 @@
     <h1>chat_bot_v0.1.0</h1>
 
     <button>
-        <img src="../public/img/mic.svg" class="mic" alt="Mic">
+        <img src="img/mic.svg" class="mic" alt="Mic">
     </button>
 
-    <div class="texting">
-        <p>You said: <em class="output-you">...</em></p>
-        <p>Bot replied: <em class="output-bot">...</em></p>
+    <div class="texting" id="text">
+        <p>You: <span class="output-you">...</span></p>
+        <p>Bot: <span class="output-bot">...</span></p>
     </div>
 </section>
 
